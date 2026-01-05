@@ -13,16 +13,13 @@
         position: fixed; top: 0; width: 100%; z-index: 2000;
         box-shadow: 0 2px 10px rgba(0,0,0,0.5);
     }
- 
    .banner { 
         background: #d90429; color:
    white; 
         padding: 6px; font-weight: bold; 
         font-size: 11px; /* Font chhota kiya */
         letter-spacing: 0.5px;
-    }
-
-   header { 
+    }   header { 
         background: #1b4332; 
         padding: 10px 0; /* Padding kam ki */
         border-bottom: 2px solid #22c55e; 
@@ -30,7 +27,6 @@
   header h2 {
         margin: 0; font-size: 18px; /* Likhawat chhoti ki */
         letter-spacing: 1px; font-weight: 800;
- 
   /* Hero Banner Section */
     .hero-section {
         margin-top: 75px; /* Adjust for smaller header */
@@ -39,9 +35,7 @@
     url('https://i.postimg.cc/YCzn3Psq/1767535757518.jpg');
     background-size: cover; background-position: center;
         border-radius: 0 0 20px 20px;
-    }
-
-   .hero-section h1 { font-size: 28px; color: #22c55e; margin-bottom: 8px; }
+    } .hero-section h1 { font-size: 28px; color: #22c55e; margin-bottom: 8px; }
     .hero-section p { font-size: 16px; opacity: 0.9; }
   .container { max-width: 450px; margin: auto; padding: 15px; }        
       /* Trust & Stock */
@@ -49,28 +43,22 @@
     .stock-container { background: #161b18; border-radius: 10px; padding: 12px; margin: 15px 0; border: 1px solid #2d3631; }
     .stock-bar { height: 8px; background: #333; border-radius: 4px; margin-top: 8px; overflow: hidden; }
     .stock-fill { height: 100%; background: #d90429; width: 8%; animation: pulse 1.5s infinite; }
-  @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.5; } 100% { opacity: 1; } }
-
-   /* Price Box */
+  @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.5; } 100% { opacity: 1; } } /* Price Box */
    .price-box { background: #161b18; padding: 20px; border-radius: 15px; border: 1px dashed #22c55e; margin: 20px 0; }
-    .total-bill { font-size: 32px; color: #22c55e; font-weight: 900; margin-top: 10px; border-top: 1px solid #333; padding-top: 10px; }
-
-   /* Input Style */
+    .total-bill { font-size: 32px; color: #22c55e; font-weight: 900; margin-top: 10px; border-top: 1px solid #333; padding-top: 10px; 
+                 /* Input Style */
     .input-box { width: 100%; padding: 14px; margin-bottom: 12px; border-radius: 8px; border: 1px solid #333; background: #000; color: white; font-size: 15px; box-sizing: border-box; } 
    /* Button */
-    .btn { background: linear-gradient(180deg, #22c55e, #1b4332); color: white; padding: 18px; width: 100%; border: none; border-radius: 12px; font-size: 18px; font-weight: bold; cursor: pointer; }
-
+    .btn { background: linear-gradient(180deg, #22c55e, #1b4332); color: white; padding: 18px; width: 100%; border: none; border-radius: 12px; font-size: 18px; font-weight: bold; cursor: pointer; 
    /* Reviews (Lambi List) */
     .review-card { background: #161b18; border: 1px solid #2d3631; border-radius: 12px; padding: 15px; margin-bottom: 12px; text-align: left; }
     .verified-tag { color: #22c55e; font-size: 10px; font-weight: bold; float: right; border: 1px solid #22c55e; padding: 2px 5px; border-radius: 4px; }
     .stars { color: #ffcc00; font-size: 12px; margin: 5px 0; }
     .review-text { font-style: italic; color: #ccc; font-size: 14px; margin: 5px 0; }
-
-   .sticky-footer { position: fixed; bottom: 0; left: 0; width: 100%; background: rgba(11, 15, 13, 0.98); padding: 12px; border-top: 1px solid #333; z-index: 1000; box-sizing: border-box; }
+.sticky-footer { position: fixed; bottom: 0; left: 0; width: 100%; background: rgba(11, 15, 13, 0.98); padding: 12px; border-top: 1px solid #333; z-index: 1000; box-sizing: border-box; }
  </style>
 </head>
 <body>
-
  <div class="header-wrapper">
     <div class="banner"> 🔥 35% OFF + FREE GIFT TODAY! 🎁 </div> 
     <header><h2>PURE NATURE</h2></header>
