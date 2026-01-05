@@ -158,7 +158,6 @@
                 <p class="review-text">"${rev.r}"</p>
             </div>`;
     });
-
     function sendOrder() {
         const name = document.getElementById('custName').value;
         const addr = document.getElementById('custAddress').value;
