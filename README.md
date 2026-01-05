@@ -27,8 +27,7 @@
         padding: 10px 0; /* Padding kam ki */
         border-bottom: 2px solid #22c55e; 
     }
-
-   header h2 {
+  header h2 {
         margin: 0; font-size: 18px; /* Likhawat chhoti ki */
         letter-spacing: 1px; font-weight: 800;
  
@@ -44,10 +43,8 @@
 
    .hero-section h1 { font-size: 28px; color: #22c55e; margin-bottom: 8px; }
     .hero-section p { font-size: 16px; opacity: 0.9; }
-
-    .container { max-width: 450px; margin: auto; padding: 15px; }        
-    
-   /* Trust & Stock */
+  .container { max-width: 450px; margin: auto; padding: 15px; }        
+      /* Trust & Stock */
     .trust-banner { background: linear-gradient(90deg, #1b4332, #22c55e); padding: 12px; border-radius: 10px; margin: 15px 0; font-size: 14px; font-weight: bold; }
     .stock-container { background: #161b18; border-radius: 10px; padding: 12px; margin: 15px 0; border: 1px solid #2d3631; }
     .stock-bar { height: 8px; background: #333; border-radius: 4px; margin-top: 8px; overflow: hidden; }
